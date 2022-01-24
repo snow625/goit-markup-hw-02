@@ -1,0 +1,115 @@
+:root {
+  --primery-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-text-color: #2196f3;
+  --secondory-text-color: rgba(255, 255, 255, 0.6);
+  --background-black-color: #2f303a;
+  --background-white-color: #ffffff;
+  --background-second-color: #e5e5e5;
+  --background-alt-color: #f5f4fa;
+}
+body {
+  background-color: var(--background-white-color);
+  color: var(--primery-text-color);
+}
+/* Убирает точку в списке */
+.list {
+  list-style: none;
+}
+/* Логотип Logo  */
+.logo {
+  color: var(--title-text-color);
+}
+.logo-text {
+  color: var(--accent-text-color);
+}
+
+/* site-nav */
+.site-nav .link {
+  color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-text-color);
+}
+.site-nav .link.current {
+  color: var(--accent-text-color);
+}
+
+/* contacts */
+.contacts .link {
+  color: var(--primery-text-color);
+}
+.contacts .link:focus,
+.contacts .link:hover {
+  color: var(--accent-text-color);
+}
+
+/* hero */
+.hero {
+  background-color: var(--background-black-color);
+}
+.hero-title {
+  color: var(--background-white-color);
+}
+/* Заголовки h2 */
+.section-title {
+  color: var(--title-text-color);
+}
+/* фон не основной */
+.section.first {
+  background-color: var(--background-second-color);
+}
+.section.second {
+  background-color: var(--background-alt-color);
+}
+
+/* Преимущества advantage */
+.advantage .title {
+  color: var(--title-text-color);
+}
+
+/*  <!--Чем мы занимаемся--> */
+
+/* <!--Наша команда--> */
+.team .title {
+  color: var(--title-text-color);
+}
+/* Кнопка!!! */
+.button {
+  color: var(--title-text-color);
+  background-color: var(--background-alt-color);
+}
+.button:hover,
+.button:focus {
+  color: var(--background-white-color);
+  background-color: var(--accent-text-color);
+}
+.button.primary {
+  color: var(--background-white-color);
+  background-color: var(--accent-text-color);
+}
+
+/* footer */
+.footer {
+  background-color: var(--background-black-color);
+}
+
+.logo-text-path {
+  color: var(--background-white-color);
+}
+.address .first {
+  color: var(--background-white-color);
+}
+.address .link {
+  color: var(--secondory-text-color);
+}
+.address .link:hover,
+.address .link:focus {
+  color: var(--accent-text-color);
+}
+
+/* Страница Портфолио */
+.projects .title {
+  color: var(--title-text-color);
+}
